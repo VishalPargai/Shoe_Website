@@ -1,10 +1,9 @@
-import products from "./db/data";
 import { ToastContainer } from 'react-toastify';
 import "./index.css";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Nav from './components/Mainpage/Nav'
 import Hero from './components/Mainpage/Hero'
-import Loginpage from './components/login/loginpage'
+import Loginpage from './components/login/Loginpage'
 import Signup from './components/login/Signup';
 import Cart from "./Cart/Cart";
 import Store from "./Store";
