@@ -1,0 +1,91 @@
+.Fullnav{
+    width: 100vw;
+}
+li,a,.redbtn{
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.navhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 5.5%;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0 2rem;  
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: rgb(0, 0, 0);
+}
+.nav_links li a:hover{
+    color: #a94400;
+}
+.redbtn{
+    padding: .5rem 1.5rem;
+    background-color: rgba(203, 3, 3, 0.86);
+    border: none;
+    color: black;
+    border-radius: .4rem;
+    max-width: max-content;
+    height: 2.7rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.1rem;
+}
+.two-btns, .twobtn{
+    display: flex;
+    gap: 1.3rem;
+}
+
+.username-display{
+    padding: .5rem 1.5rem;
+    background-color: rgba(203, 3, 3, 0.86);
+    border: none;
+    color: black;
+    border-radius: .4rem;
+    min-width: 2rem;
+    max-width: max-content;
+    height: 2.7rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.1rem;
+}
+.icon{
+    position: relative;
+    top: .2rem;
+}
+.logoutbtnw{
+    background-color: transparent;
+    min-width: none;
+    max-width: max-content;
+    padding: .72rem;
+    border: 1.5px solid black;
+    border-radius: 0;
+}
+
+.cart{
+    padding: .7rem 0;
+    background : transparent;
+    border: none;
+    color: black;
+    width: 3rem;
+    height: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.2rem;
+}
+

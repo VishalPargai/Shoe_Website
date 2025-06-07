@@ -1,0 +1,57 @@
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero h1{
+    font-weight: 800;
+    line-height: 6.3rem;
+    font-size: 6rem;
+}
+
+.hero p{
+    font-weight: 600;
+    color: rgb(40, 33, 33);
+    max-width: 60%;
+}
+.hero-btn{
+    display: flex;
+    gap: 3rem;
+}
+.container{
+    margin: 0 auto;
+    max-width: 92%;
+}
+.sec-btn{
+    background-color: transparent;
+    width: 20%;
+    border: 1.5px solid black;
+    border-radius: 0;
+}
+
+.shopping p{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.brand-logo{
+    display: flex;
+    gap: 1.6rem;
+}
+.redbttn{
+    padding: .8rem 1rem;
+    background-color: rgba(203, 3, 3, 0.86);
+    border: none;
+    color: black;
+    border-radius: 10px;
+    width: 10rem;
+    height: 3.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.1rem;
+}

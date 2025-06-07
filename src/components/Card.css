@@ -1,0 +1,76 @@
+.card {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-details {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.card-reviews {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.total-reviews {
+  margin-left: 5px;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 16px;
+}
+
+.prev-price {
+  color: #999;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #000;
+  margin-left: 6px;
+}
+
+.bag-btn {
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bag-btn:hover {
+  background-color: #d62828;
+}
+
+.bag-icon {
+  color: rgb(5, 5, 5);
+  font-size: 18px;
+}
